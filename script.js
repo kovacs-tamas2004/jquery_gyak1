@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // Tartalom gombok eseménykezelése
     $('#changeTextBtn1').click(function() {
       $('#text').html('Első tartalom <span>kistag</span>.');
     });
@@ -12,7 +11,6 @@ $(document).ready(function() {
       $('#text').html('Harmadik tartalom <em>dőlt</em>.');
     });
   
-    // Stílus gombok eseménykezelése
     $('#changeStyleBtn1').click(function() {
       $('#box').css({
         'font-size': '20px',
@@ -40,7 +38,6 @@ $(document).ready(function() {
       });
     });
   
-    // Animációs gombok eseménykezelése
     $('#animateBtn1').click(function() {
       $('#animatedBox').animate({
         'left': '+=50px'
